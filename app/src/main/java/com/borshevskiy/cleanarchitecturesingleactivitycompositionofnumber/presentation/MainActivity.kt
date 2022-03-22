@@ -1,7 +1,8 @@
-package com.borshevskiy.cleanarchitecturesingleactivitycompositionofnumber
+package com.borshevskiy.cleanarchitecturesingleactivitycompositionofnumber.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.borshevskiy.cleanarchitecturesingleactivitycompositionofnumber.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
