@@ -41,9 +41,6 @@
         android:name="com.borshevskiy.cleanarchitecturesingleactivitycompositionofnumber.presentation.GameFinishedFragment"
         android:label="fragment_game_finished"
         tools:layout="@layout/fragment_game_finished" >
-        <action
-            android:id="@+id/action_gameFinishedFragment_to_chooseLevelFragment"
-            app:destination="@id/chooseLevelFragment" />
         <argument
             android:name="gameResult"
             app:argType="com.borshevskiy.cleanarchitecturesingleactivitycompositionofnumber.domain.entity.GameResult" />
